@@ -1,2 +1,2 @@
 # DVC
-MATLAB Digital Volume Correlation code
+Digital Volume Correlation MATLAB code
