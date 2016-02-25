@@ -1,10 +1,8 @@
 function [grid_x,grid_y,grid_z]=grid_generator3(FileNameBase,PathNameBase)
 
-% Code to generate the DIC analysis grid
-% Completely rewritten by Chris
-% Programmed first by Dan and Rob 
+% grid_generator3 function was written by Ryan McCaffrey and based on the 2D code (grid_generator) written by Chris Eberl, Dan Gianola and Rob Thompson
+% Code to generate the DVC analysis grid
 % 
-% Last revision: 12/27/06
 
 % The grid_generator function will help you create grids of markers. The
 % dialog has different options allowing you to create a marker grid which is rectangular,
