@@ -1,4 +1,7 @@
 function [xyzinput] = cpcorr3(varargin)
+%  cpcorr3 code adapted from cpcorr function originally developed by MathWorks.
+%  cpcorr3 function was written by Ryan McCaffrey and Peter Matthews
+%
 % INPUT_POINTS = CPCORR(INPUT_POINTS_IN,BASE_POINTS_IN,INPUT,BASE) uses
 %   normalized cross-correlation to adjust each pair of control points
 %   specified in INPUT_POINTS_IN and BASE_POINTS_IN.
@@ -54,9 +57,6 @@ function [xyzinput] = cpcorr3(varargin)
 %   The images can be numeric and must contain finite values. The input
 %   control point pairs are double.
 %
-%   Adapted from MathWorks, Inc. COpyright 1993-2004 The MathWorks, Inc.
-%   Written by Peter Matthews, University of Pennsylvania
-%   Edited June 26th, 2010
 %
 %   Input-output specs
 %   ------------------
