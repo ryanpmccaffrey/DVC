@@ -1,9 +1,10 @@
 function [FileNameBase,PathNameBase,filenamelist]=filelist_generator3
-
+% filelist_generator code written by Rob and changed by Chris
+% Code was slightly modified by Ryan to create filelist_generator3.
+% 
 % Code to construct a list of 9999 or less filenames
 % Programmed by Rob, changed by Chris. Automatic filelist generation 
 % and image time aquisition added by Chris.
-% Last revision: 12/25/06
 
 filenamelistmode = menu(sprintf('How do you want to create the filenamelist?'),...
     'Manually','Automatically','Cancel');
