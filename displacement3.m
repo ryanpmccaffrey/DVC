@@ -1,3 +1,6 @@
+% Original displacement function was developed by Chris and Dan
+% displacement3 was developed by Ryan. Code was rewritten for post-processing 3D displacements.
+
 function [validx,validy,validz,indx,indy,indz]=displacement3(validx,validy,validz,indx,indy,indz)
 
 %load data in case you did not load it into workspace yet
