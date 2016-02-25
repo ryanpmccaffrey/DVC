@@ -1,6 +1,7 @@
 function [xpeak, ypeak, zpeak, max_f] = findpeak3(f,subpixel)
 % findpeak3 function was coded by Ryan McCaffrey and based on modifying the original 2D findpeak function developed by MathWorks.
-% findpeak3 uses a polynomial interpolation scheme applied to the normalized cross correlation coefficient (NCCC) array.  The interpolation scheme is fitted to the NCCC maximum and its 27 nearest neighbors in order to achieve displacement measurements to subvoxel accuracies. 
+% findpeak3 uses a polynomial interpolation scheme applied to the normalized cross correlation coefficient (NCCC) array.  
+% The interpolation scheme is fitted to the NCCC maximum and its 27 nearest neighbors in order to achieve displacement measurements to subvoxel accuracies. 
 %
 %FINDPEAK Find extremum of matrix.
 %   [XPEAK,YPEAK,MAX_F] = FINDPEAK(F,SUBPIXEL) finds the extremum of F,
