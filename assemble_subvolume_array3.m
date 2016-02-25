@@ -1,3 +1,5 @@
+% automate_subvolume_array3 function written by Ryan McCaffrey
+
 function sub_volume = assemble_subvolume_array3(volume_points_for,volume,CORRSIZE,ncp)
 
 cubes_volume = calc_cubes(volume_points_for,CORRSIZE,volume);
