@@ -1,8 +1,8 @@
 function [validx,validy,validz]=automate_image3(grid_x,grid_y,grid_z,filenamelist,validx,validy,validz)
 
-% Code to start actual image correlation
-% Programmed by Chris and Rob
-% Last revision: 09/10/08
+% Code to start actual volumetric image correlation
+% automate_image function was originally programmed by Chris and Rob
+% This was modified by Ryan to create automate_image3
 
 % The automation function is the central function and processes all markers and 
 % images by the use of the matlab function cpcorr.m. 
