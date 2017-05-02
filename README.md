@@ -3,6 +3,6 @@ This Digital Volume Correlation (DVC) MATLAB code was developed as part of a res
 
 Long story short, this DVC code can be used on numerous different types of volumetric image datasets, with the sole purpose of mapping vector displacements from one volumetric image to the next (i.e., answering the question: how are things moving in 3D?).  The program does not care how the images were acquired, just that they are high resolution TIFF images. In our case we used LSCM to acquire the images, but the DVC code can just as easily be applied to volumetric images acquired via X-ray or magnetic resonance imaging (MRI).  
 
-DVC_Overview.pdf presents an overview of the theory of how the DVC algorithm works.  
-DVC_File_Descriptions.pdf provides a more detailed description of the different functions used in the DVC code.  
-DVC_Guide.pdf provides users with a practical guide to running the code, walking through the software and post-processing results.
+**DVC_Overview.pdf** presents an overview of the theory of how the DVC algorithm works.  
+**DVC_File_Descriptions.pdf** provides a more detailed description of the different functions used in the DVC code.  
+**DVC_Guide.pdf** provides users with a practical guide to running the code, walking through the software and post-processing results.
